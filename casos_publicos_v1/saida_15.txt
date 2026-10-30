@@ -1,0 +1,98 @@
+[t=100ms] [RR] Chegada PID 45
+[t=100ms] [RR] [CPU0] Executando PID 45
+[t=200ms] [RR] Chegada PID 46
+[t=200ms] [RR] [CPU1] Executando PID 46
+[t=400ms] [RR] Chegada PID 13
+[t=400ms] [RR] Chegada PID 19
+[t=500ms] [RR] [CPU0] Quantum esgotado PID 45
+[t=500ms] [RR] [CPU0] Executando PID 13
+[t=600ms] [RR] [CPU1] Quantum esgotado PID 46
+[t=600ms] [RR] [CPU1] Executando PID 19
+[t=900ms] [RR] Chegada PID 22
+[t=900ms] [RR] [CPU0] Quantum esgotado PID 13
+[t=900ms] [RR] [CPU0] Executando PID 45
+[t=1000ms] [RR] Chegada PID 8
+[t=1000ms] [RR] [CPU1] Quantum esgotado PID 19
+[t=1000ms] [RR] [CPU1] Executando PID 46
+[t=1100ms] [RR] Chegada PID 42
+[t=1300ms] [RR] [CPU0] Quantum esgotado PID 45
+[t=1300ms] [RR] [CPU0] Executando PID 22
+[t=1400ms] [RR] [CPU1] Quantum esgotado PID 46
+[t=1400ms] [RR] [CPU1] Executando PID 13
+[t=1500ms] [RR] Chegada PID 11
+[t=1700ms] [RR] [CPU0] Quantum esgotado PID 22
+[t=1700ms] [RR] [CPU0] Executando PID 8
+[t=1800ms] [RR] [CPU1] Quantum esgotado PID 13
+[t=1800ms] [RR] [CPU1] Executando PID 19
+[t=2100ms] [RR] [CPU0] Quantum esgotado PID 8
+[t=2100ms] [RR] [CPU0] Executando PID 42
+[t=2200ms] [RR] [CPU1] Quantum esgotado PID 19
+[t=2200ms] [RR] [CPU1] Executando PID 45
+[t=2500ms] [RR] [CPU0] Quantum esgotado PID 42
+[t=2500ms] [RR] [CPU0] Executando PID 46
+[t=2600ms] [RR] [CPU1] Quantum esgotado PID 45
+[t=2600ms] [RR] [CPU1] Executando PID 11
+[t=2900ms] [RR] [CPU0] Quantum esgotado PID 46
+[t=2900ms] [RR] [CPU0] Executando PID 22
+[t=3000ms] [RR] [CPU1] Quantum esgotado PID 11
+[t=3000ms] [RR] [CPU1] Executando PID 13
+[t=3300ms] [RR] [CPU0] Quantum esgotado PID 22
+[t=3300ms] [RR] [CPU0] Executando PID 8
+[t=3400ms] [RR] [CPU1] Quantum esgotado PID 13
+[t=3400ms] [RR] [CPU1] Executando PID 19
+[t=3700ms] [RR] [CPU0] Quantum esgotado PID 8
+[t=3700ms] [RR] [CPU0] Executando PID 42
+[t=3800ms] [RR] [CPU0] PID 42 finalizado
+[t=3800ms] [RR] [CPU1] Quantum esgotado PID 19
+[t=3800ms] [RR] [CPU1] Executando PID 45
+[t=4100ms] [RR] [CPU0] Executando PID 46
+[t=4200ms] [RR] [CPU1] Quantum esgotado PID 45
+[t=4200ms] [RR] [CPU1] Executando PID 11
+[t=4300ms] [RR] [CPU0] PID 46 finalizado
+[t=4500ms] [RR] [CPU0] Executando PID 22
+[t=4600ms] [RR] [CPU1] Quantum esgotado PID 11
+[t=4600ms] [RR] [CPU1] Executando PID 13
+[t=4900ms] [RR] [CPU0] Quantum esgotado PID 22
+[t=4900ms] [RR] [CPU0] Executando PID 8
+[t=5000ms] [RR] [CPU0] PID 8 finalizado
+[t=5000ms] [RR] [CPU1] Quantum esgotado PID 13
+[t=5000ms] [RR] [CPU1] Executando PID 19
+[t=5300ms] [RR] [CPU0] Executando PID 45
+[t=5400ms] [RR] [CPU0] PID 45 finalizado
+[t=5400ms] [RR] [CPU1] Quantum esgotado PID 19
+[t=5400ms] [RR] [CPU1] Executando PID 11
+[t=5700ms] [RR] [CPU0] Executando PID 22
+[t=5800ms] [RR] [CPU1] Quantum esgotado PID 11
+[t=5800ms] [RR] [CPU1] Executando PID 13
+[t=5900ms] [RR] [CPU0] PID 22 finalizado
+[t=6100ms] [RR] [CPU0] Executando PID 19
+[t=6200ms] [RR] [CPU1] Quantum esgotado PID 13
+[t=6200ms] [RR] [CPU1] Executando PID 11
+[t=6500ms] [RR] [CPU0] Quantum esgotado PID 19
+[t=6500ms] [RR] [CPU0] Executando PID 13
+[t=6600ms] [RR] [CPU1] Quantum esgotado PID 11
+[t=6600ms] [RR] [CPU1] Executando PID 19
+[t=6800ms] [RR] [CPU0] PID 13 finalizado
+[t=6900ms] [RR] [CPU1] PID 19 finalizado
+[t=6900ms] [RR] [CPU0] Executando PID 11
+[t=7300ms] [RR] [CPU0] Quantum esgotado PID 11
+[t=7300ms] [RR] [CPU0] Executando PID 11
+[t=7400ms] [RR] [CPU0] PID 11 finalizado
+[t=7700ms] [RR] Escalonador terminou execução de todos processos
+=== METRICAS ===
+PID 8 | espera=3100ms | turnaround=4000ms | resposta=700ms
+PID 11 | espera=3800ms | turnaround=5900ms | resposta=1100ms
+PID 13 | espera=4100ms | turnaround=6400ms | resposta=100ms
+PID 19 | espera=4200ms | turnaround=6500ms | resposta=200ms
+PID 22 | espera=3600ms | turnaround=5000ms | resposta=400ms
+PID 42 | espera=2200ms | turnaround=2700ms | resposta=1000ms
+PID 45 | espera=3600ms | turnaround=5300ms | resposta=0ms
+PID 46 | espera=2700ms | turnaround=4100ms | resposta=0ms
+Espera media: 3412.50 ms
+Turnaround medio: 4987.50 ms
+Resposta media: 437.50 ms
+Trocas de contexto: 35
+Utilizacao CPU0: 79.73%
+Utilizacao CPU1: 90.54%
+Throughput: 1.08 processos/s
+Makespan: 7400 ms

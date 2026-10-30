@@ -1,0 +1,33 @@
+[t=0ms] [PRIORIDADE] Chegada PID 1
+[t=0ms] [PRIORIDADE] [CPU0] Executando PID 1
+[t=100ms] [PRIORIDADE] Chegada PID 3
+[t=200ms] [PRIORIDADE] Chegada PID 2
+[t=500ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 1
+[t=500ms] [PRIORIDADE] [CPU0] Executando PID 2
+[t=1000ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 2
+[t=1000ms] [PRIORIDADE] [CPU0] Executando PID 2
+[t=1500ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 2
+[t=1500ms] [PRIORIDADE] [CPU0] Executando PID 2
+[t=2000ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 2
+[t=2000ms] [PRIORIDADE] [CPU0] Executando PID 2
+[t=2500ms] [PRIORIDADE] [CPU0] PID 2 finalizado
+[t=2500ms] [PRIORIDADE] [CPU0] Executando PID 3
+[t=3000ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 3
+[t=3000ms] [PRIORIDADE] [CPU0] Executando PID 3
+[t=3500ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 3
+[t=3500ms] [PRIORIDADE] [CPU0] Executando PID 3
+[t=4000ms] [PRIORIDADE] [CPU0] PID 3 finalizado
+[t=4000ms] [PRIORIDADE] [CPU0] Executando PID 1
+[t=4500ms] [PRIORIDADE] [CPU0] PID 1 finalizado
+[t=4500ms] [PRIORIDADE] Escalonador terminou execução de todos processos
+=== METRICAS ===
+PID 1 | espera=3500ms | turnaround=4500ms | resposta=0ms
+PID 2 | espera=300ms | turnaround=2300ms | resposta=300ms
+PID 3 | espera=2400ms | turnaround=3900ms | resposta=2400ms
+Espera media: 2066.67 ms
+Turnaround medio: 3566.67 ms
+Resposta media: 900.00 ms
+Trocas de contexto: 4
+Utilizacao CPU0: 100.00%
+Throughput: 0.67 processos/s
+Makespan: 4500 ms

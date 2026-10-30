@@ -1,0 +1,21 @@
+[t=0ms] [FCFS] Chegada PID 1
+[t=0ms] [FCFS] [CPU0] Executando PID 1
+[t=100ms] [FCFS] Chegada PID 3
+[t=200ms] [FCFS] Chegada PID 2
+[t=1000ms] [FCFS] [CPU0] PID 1 finalizado
+[t=1000ms] [FCFS] [CPU0] Executando PID 3
+[t=2500ms] [FCFS] [CPU0] PID 3 finalizado
+[t=2500ms] [FCFS] [CPU0] Executando PID 2
+[t=4500ms] [FCFS] [CPU0] PID 2 finalizado
+[t=4500ms] [FCFS] Escalonador terminou execução de todos processos
+=== METRICAS ===
+PID 1 | espera=0ms | turnaround=1000ms | resposta=0ms
+PID 2 | espera=2300ms | turnaround=4300ms | resposta=2300ms
+PID 3 | espera=900ms | turnaround=2400ms | resposta=900ms
+Espera media: 1066.67 ms
+Turnaround medio: 2566.67 ms
+Resposta media: 1066.67 ms
+Trocas de contexto: 3
+Utilizacao CPU0: 100.00%
+Throughput: 0.67 processos/s
+Makespan: 4500 ms

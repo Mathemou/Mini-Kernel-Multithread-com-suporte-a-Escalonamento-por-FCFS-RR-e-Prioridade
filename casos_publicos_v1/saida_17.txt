@@ -1,0 +1,102 @@
+[t=0ms] [PRIORIDADE] Chegada PID 49
+[t=0ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=300ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 49
+[t=300ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=400ms] [PRIORIDADE] Chegada PID 10
+[t=400ms] [PRIORIDADE] [CPU1] Executando PID 10
+[t=600ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 49
+[t=600ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=700ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 10
+[t=700ms] [PRIORIDADE] [CPU1] Executando PID 10
+[t=800ms] [PRIORIDADE] Chegada PID 9
+[t=800ms] [PRIORIDADE] Chegada PID 25
+[t=900ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 49
+[t=900ms] [PRIORIDADE] [CPU0] Executando PID 25
+[t=1000ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 10
+[t=1000ms] [PRIORIDADE] [CPU1] Executando PID 10
+[t=1200ms] [PRIORIDADE] Chegada PID 39
+[t=1200ms] [PRIORIDADE] Chegada PID 55
+[t=1200ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 25
+[t=1200ms] [PRIORIDADE] [CPU0] Executando PID 55
+[t=1300ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 10
+[t=1300ms] [PRIORIDADE] [CPU1] Executando PID 25
+[t=1400ms] [PRIORIDADE] Chegada PID 8
+[t=1400ms] [PRIORIDADE] Chegada PID 27
+[t=1500ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 55
+[t=1500ms] [PRIORIDADE] [CPU0] Executando PID 27
+[t=1600ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 25
+[t=1600ms] [PRIORIDADE] [CPU1] Executando PID 55
+[t=1800ms] [PRIORIDADE] [CPU1] PID 55 finalizado
+[t=1800ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 27
+[t=1800ms] [PRIORIDADE] [CPU0] Executando PID 27
+[t=1900ms] [PRIORIDADE] [CPU1] Executando PID 10
+[t=2100ms] [PRIORIDADE] [CPU0] PID 27 finalizado
+[t=2100ms] [PRIORIDADE] [CPU0] Executando PID 8
+[t=2200ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 10
+[t=2200ms] [PRIORIDADE] [CPU1] Executando PID 25
+[t=2400ms] [PRIORIDADE] [CPU1] PID 25 finalizado
+[t=2400ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 8
+[t=2400ms] [PRIORIDADE] [CPU0] Executando PID 10
+[t=2500ms] [PRIORIDADE] [CPU1] Executando PID 8
+[t=2700ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 10
+[t=2700ms] [PRIORIDADE] [CPU0] Executando PID 10
+[t=2800ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 8
+[t=2800ms] [PRIORIDADE] [CPU1] Executando PID 8
+[t=3000ms] [PRIORIDADE] [CPU0] PID 10 finalizado
+[t=3000ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=3100ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 8
+[t=3100ms] [PRIORIDADE] [CPU1] Executando PID 8
+[t=3300ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 49
+[t=3300ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=3400ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 8
+[t=3400ms] [PRIORIDADE] [CPU1] Executando PID 8
+[t=3600ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 49
+[t=3600ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=3700ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 8
+[t=3700ms] [PRIORIDADE] [CPU1] Executando PID 8
+[t=3900ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 49
+[t=3900ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=4000ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 8
+[t=4000ms] [PRIORIDADE] [CPU1] Executando PID 8
+[t=4200ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 49
+[t=4200ms] [PRIORIDADE] [CPU0] Executando PID 49
+[t=4300ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 8
+[t=4300ms] [PRIORIDADE] [CPU1] Executando PID 8
+[t=4400ms] [PRIORIDADE] [CPU0] PID 49 finalizado
+[t=4500ms] [PRIORIDADE] [CPU0] Executando PID 9
+[t=4600ms] [PRIORIDADE] [CPU1] PID 8 finalizado
+[t=4600ms] [PRIORIDADE] [CPU1] Executando PID 39
+[t=4800ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 9
+[t=4800ms] [PRIORIDADE] [CPU0] Executando PID 9
+[t=4900ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 39
+[t=4900ms] [PRIORIDADE] [CPU1] Executando PID 39
+[t=5100ms] [PRIORIDADE] [CPU0] Quantum esgotado PID 9
+[t=5100ms] [PRIORIDADE] [CPU0] Executando PID 9
+[t=5200ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 39
+[t=5200ms] [PRIORIDADE] [CPU1] Executando PID 39
+[t=5300ms] [PRIORIDADE] [CPU0] PID 9 finalizado
+[t=5500ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 39
+[t=5500ms] [PRIORIDADE] [CPU1] Executando PID 39
+[t=5800ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 39
+[t=5800ms] [PRIORIDADE] [CPU1] Executando PID 39
+[t=6100ms] [PRIORIDADE] [CPU1] Quantum esgotado PID 39
+[t=6100ms] [PRIORIDADE] [CPU1] Executando PID 39
+[t=6400ms] [PRIORIDADE] [CPU1] PID 39 finalizado
+[t=6400ms] [PRIORIDADE] Escalonador terminou execução de todos processos
+=== METRICAS ===
+PID 8 | espera=800ms | turnaround=3200ms | resposta=700ms
+PID 9 | espera=3700ms | turnaround=4500ms | resposta=3700ms
+PID 10 | espera=800ms | turnaround=2600ms | resposta=0ms
+PID 25 | espera=800ms | turnaround=1600ms | resposta=100ms
+PID 27 | espera=100ms | turnaround=700ms | resposta=100ms
+PID 39 | espera=3400ms | turnaround=5200ms | resposta=3400ms
+PID 49 | espera=2100ms | turnaround=4400ms | resposta=0ms
+PID 55 | espera=100ms | turnaround=600ms | resposta=0ms
+Espera media: 1475.00 ms
+Turnaround medio: 2850.00 ms
+Resposta media: 1000.00 ms
+Trocas de contexto: 15
+Utilizacao CPU0: 81.25%
+Utilizacao CPU1: 90.62%
+Throughput: 1.25 processos/s
+Makespan: 6400 ms

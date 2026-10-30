@@ -1,0 +1,35 @@
+[t=0ms] [RR] Chegada PID 5
+[t=0ms] [RR] [CPU0] Executando PID 5
+[t=300ms] [RR] Chegada PID 9
+[t=300ms] [RR] [CPU0] Quantum esgotado PID 5
+[t=300ms] [RR] [CPU0] Executando PID 9
+[t=400ms] [RR] Chegada PID 2
+[t=600ms] [RR] [CPU0] Quantum esgotado PID 9
+[t=600ms] [RR] [CPU0] Executando PID 5
+[t=900ms] [RR] [CPU0] Quantum esgotado PID 5
+[t=900ms] [RR] [CPU0] Executando PID 2
+[t=1200ms] [RR] [CPU0] Quantum esgotado PID 2
+[t=1200ms] [RR] [CPU0] Executando PID 9
+[t=1400ms] [RR] [CPU0] PID 9 finalizado
+[t=1500ms] [RR] [CPU0] Executando PID 5
+[t=1600ms] [RR] [CPU0] PID 5 finalizado
+[t=1800ms] [RR] [CPU0] Executando PID 2
+[t=2100ms] [RR] [CPU0] Quantum esgotado PID 2
+[t=2100ms] [RR] [CPU0] Executando PID 2
+[t=2400ms] [RR] [CPU0] PID 2 finalizado
+[t=2500ms] [RR] Chegada PID 11
+[t=2500ms] [RR] [CPU0] Executando PID 11
+[t=2700ms] [RR] [CPU0] PID 11 finalizado
+[t=2800ms] [RR] Escalonador terminou execução de todos processos
+=== METRICAS ===
+PID 2 | espera=1100ms | turnaround=2000ms | resposta=500ms
+PID 5 | espera=900ms | turnaround=1600ms | resposta=0ms
+PID 9 | espera=600ms | turnaround=1100ms | resposta=0ms
+PID 11 | espera=0ms | turnaround=200ms | resposta=0ms
+Espera media: 650.00 ms
+Turnaround medio: 1225.00 ms
+Resposta media: 125.00 ms
+Trocas de contexto: 8
+Utilizacao CPU0: 85.19%
+Throughput: 1.48 processos/s
+Makespan: 2700 ms

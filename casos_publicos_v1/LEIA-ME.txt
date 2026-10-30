@@ -1,0 +1,43 @@
+CASOS DE TESTE PÚBLICOS - MINI-KERNEL MULTITHREAD (INF15980) - 1ª ETAPA
+========================================================================
+
+Cada caso k possui dois arquivos:
+  entrada_kk.txt  -> arquivo de entrada (formato da seção 4.1 da especificação)
+  saida_kk.txt    -> conteúdo esperado de log_execucao_minikernel.txt
+                     (log de eventos + bloco === METRICAS ===)
+
+Uso:   make <monoprocessador|multiprocessador>   e   ./trabSO entrada_kk.txt
+Casos 01 a 06: executar na versão monoprocessador (CPUS 1).
+Casos 07 a 18: executar na versão multiprocessador (CPUS 2).
+
+COMO COMPARAR SUA SAÍDA (seção 4.6)
+------------------------------------------------------------------------
+- Desvio de até 150 ms nos instantes dos eventos.
+- Eventos com instantes que diferem menos de 150 ms podem aparecer em outra ordem
+  (por exemplo, eventos simultâneos em CPUs diferentes). A ordem dos eventos de uma
+  mesma CPU, os PIDs, as CPUs e o número de eventos devem coincidir.
+- Métricas: desvio de até 10%. A contagem de trocas de contexto deve ser exata.
+
+PONTOS DA ESPECIFICAÇÃO QUE ESTES CASOS EXERCITAM
+------------------------------------------------------------------------
+- Dentro de um mesmo instante, as linhas aparecem na ordem: chegadas, finalizações,
+  fim de quantum / migração / despacho.
+- RR e PRIORIDADE: a CPU é retida até o fim do quantum mesmo que o processo termine antes.
+  A linha 'finalizado' sai no instante em que o tempo restante zera. O despacho seguinte
+  só ocorre quando a CPU é liberada. Esse intervalo não conta como CPU ocupada.
+- Um processo que termina exatamente no fim do quantum só gera a linha 'finalizado'
+  (não gera 'Quantum esgotado').
+- O evento 'Escalonador terminou...' é registrado quando a última CPU é liberada, ou seja,
+  pode ser posterior ao makespan nos casos com retenção de CPU (ex.: caso 05). O makespan
+  das métricas é o instante da última finalização.
+- Se, ao fim do quantum, o processo atual é o único (ou o melhor) da fila, ele é
+  selecionado novamente: sai 'Quantum esgotado' seguido de 'Executando' para o mesmo PID.
+  Isso não conta como troca de contexto.
+- Chegada no mesmo instante do fim de um quantum: o processo que chegou entra na fila antes
+  do processo preemptado (caso 05, t=300 ms).
+- FILA POR_CPU: colocação na CPU de menor carga (fila local + processo em execução, empate
+  na menor CPU) e migração do último elemento da fila mais longa quando a CPU fica sem trabalho.
+  Os casos 08, 10, 12, 14, 16 e 18 têm migrações.
+
+Observação: os casos foram escolhidos de modo que o resultado não dependa da ordem em que
+duas CPUs tratam eventos exatamente simultâneos competindo pela mesma fila.
